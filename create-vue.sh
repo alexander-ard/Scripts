@@ -1,4 +1,7 @@
 
+#To use this script:  sh  create-vue.sh  NewComponentName  ./new/component/path
+#The component folder and files will be crated under [the provided path]/src/components/
+
 echo "Creating component $1 in $2"
 
 length=${#1}
